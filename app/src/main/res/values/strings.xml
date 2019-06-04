@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SDEIArchitectureMvvm</string>
+    <string name="Note_cant_be_updated">Note can\'t be updated</string>
+    <string name="note_saved">Note saved</string>
+    <string name="note_updated">Note updated</string>
+    <string name="note_not_saved">Note not saved</string>
+    <string name="all_notes_deleted">All notes deleted</string>
+    <string name="please_insert_a_title_and_discription">Please insert a title and description</string>
+    <string name="edit_note">Edit Note</string>
+    <string name="add_note">Add Note</string>
+    <string name="note_deleted">Note deleted</string>
+</resources>
