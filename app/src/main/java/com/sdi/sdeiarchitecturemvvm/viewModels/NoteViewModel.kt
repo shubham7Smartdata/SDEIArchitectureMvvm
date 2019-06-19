@@ -7,6 +7,7 @@ import com.sdi.sdeiarchitecturemvvm.data.Note
 import com.sdi.sdeiarchitecturemvvm.repositories.NoteRepository
 
 class NoteViewModel(application: Application) : AndroidViewModel(application) {
+
     private val repository: NoteRepository
     val allNotes: LiveData<List<Note>>
 

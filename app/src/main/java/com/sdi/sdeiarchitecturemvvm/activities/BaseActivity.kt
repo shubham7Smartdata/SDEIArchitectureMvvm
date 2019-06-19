@@ -92,7 +92,6 @@ abstract class BaseActivity<V : AndroidViewModel> : AppCompatActivity() {
         mSnackbar!!.show()
     }
 
-
     fun toast(message: String) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show()
     }
@@ -102,6 +101,13 @@ abstract class BaseActivity<V : AndroidViewModel> : AppCompatActivity() {
         mSnackbar!!.view.setBackgroundColor(Color.RED)
         mSnackbar!!.show()
     }
+
+//    private fun performDataBinding() {
+//        mViewDataBinding = DataBindingUtil.setContentView(this, getLayoutId())
+//        this.mViewModel = if (mViewModel == null) getViewModel() else mViewModel
+//        mViewDataBinding.setVariable(getBindingVariable(), mViewModel)
+//        mViewDataBinding.executePendingBindings()
+//    }
 
 }
 
